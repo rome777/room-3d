@@ -4,6 +4,9 @@
 *.spz
 *.splat
 
+# 제출물로 올리는 것만 예외. 나머지는 위 규칙대로 제외된다.
+!my-open-space/scene.sog
+
 # 실행 흔적
 tools/shim-debug.log
 tools/format-table.json

@@ -21,6 +21,10 @@ html,body{margin:0;height:100%;background:#0b0f14;color:#e2e8f0;overflow:hidden;
 #steps li.bad::before{content:"X ";color:#ef4444;font-weight:700}
 #steps li.run::before{content:".. ";color:#eab308}
 #steps li:not(.ok):not(.bad):not(.run)::before{content:"  "}
+#origin{margin-top:9px;padding:9px 10px;border-radius:8px;background:#1c1a10;
+  border:1px solid #57400f;color:#fde68a;font-size:11.5px;line-height:1.6}
+#origin a{color:#fbbf24}
+#origin b{color:#fcd34d}
 #fix{margin-top:10px;padding:10px;border-radius:8px;background:#2a1215;
   border:1px solid #7f1d1d;color:#fecaca;display:none;white-space:pre-wrap}
 #fix.show{display:block}
@@ -64,6 +68,12 @@ code{background:#1e293b;padding:1px 5px;border-radius:4px;color:#fbbf24;font-siz
     <li id="s4">알갱이로 풀기</li>
     <li id="s5">크기를 재서 카메라 놓기</li>
   </ul>
+  <div id="origin">직접 찍은 영상이 아닙니다. 공개 데이터셋
+    <a href="https://jonbarron.info/mipnerf360/" target="_blank" rel="noopener">mip-NeRF 360</a>
+    의 <code>garden</code> 장면(CC BY 4.0, Barron 외)에서 24장을 골라 복원한
+    <b>연습 실행</b>입니다. 자세한 내용은
+    <a href="https://github.com/rome777/room-3d/blob/master/my-open-space/README.md"
+       target="_blank" rel="noopener">README</a> 에 있습니다.</div>
   <div class="dim" style="margin-top:8px">파일을 화면에 끌어다 놓으면 그것으로 다시 그립니다.<br>
     <span class="dim">.ply · .compressed.ply · .sog · .spz</span></div>
   <div id="fix"></div>
