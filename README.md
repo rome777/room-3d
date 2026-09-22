@@ -9,6 +9,14 @@
 
 가운데 점을 만드는 일만 AI 가 하고(MapAnything), 나머지는 파일을 바꾸는 일이다.
 
+## 보기
+
+https://rome777.github.io/room-3d/my-open-space/
+
+**직접 찍은 영상이 아니다.** 공개 데이터셋 [mip-NeRF 360](https://jonbarron.info/mipnerf360/)
+의 `garden` 장면(CC BY 4.0, Barron 외)으로 돌린 연습 실행이고, 그 사실과 못 한 걸음을
+[`my-open-space/README.md`](my-open-space/README.md) 에 밝혀 두었다.
+
 ## 들어 있는 것
 
 | 파일 | 무엇 |
