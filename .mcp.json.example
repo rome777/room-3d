@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "colab-mcp": {
+      "command": "python",
+      "args": ["tools/colab_mcp_shim.py"],
+      "env": {
+        "COLAB_MCP_NOTEBOOK": "https://colab.research.google.com/drive/<자기 노트 ID>"
+      },
+      "timeout": 240000
+    }
+  }
+}

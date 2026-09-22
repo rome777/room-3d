@@ -1,0 +1,16 @@
+# 검증용·연습용 알갱이 파일. 실제 결과가 나오면 그때 필요한 것만 담는다.
+*.ply
+*.sog
+*.spz
+*.splat
+
+# 실행 흔적
+tools/shim-debug.log
+tools/format-table.json
+__pycache__/
+
+# 기계 고유 경로와 Drive 노트 ID 가 들어간다. .mcp.json.example 을 복사해 쓴다.
+.mcp.json
+
+# 남의 것. 받아서 쓰는 것이라 담지 않는다 (README 참조)
+.claude/skills/
